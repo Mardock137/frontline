@@ -1,0 +1,48 @@
+## Node / frontend
+node_modules/
+.next/
+frontend/.env.local
+
+## Python / venv / caches
+.venv/
+venv/
+ENV/
+env/
+
+__pycache__/
+pytest_cache/
+*.py[cod]
+*.pyd
+*.so
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+## Local data & runtime output
+data/
+logs/
+*.log
+*.sqlite
+*.db
+
+## Secrets / local config
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+## OS / IDE files / Support files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+docs/TEMPLATE.md
+dev_support/
+.antigravity/
+.cursor/
+.vscode/
+.idea/
